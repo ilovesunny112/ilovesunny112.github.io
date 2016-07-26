@@ -1,0 +1,354 @@
+ nav{
+ 	background-color: #ccc;
+ 	height:50px;
+ }
+#banner{
+	height:700px;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+header{
+	background-color: rgba(0, 0, 0, 0.4);
+	color:#fff;
+}
+
+nav ul{
+	list-style:none;
+	margin:0;float:right;
+}
+
+nav ul li, nav .logo{
+	display:inline-block;
+	line-height:50px;
+	margin-right:20px;
+}
+
+nav  .logo{
+	float:left;
+	padding-left:10px;
+}
+.logo a{
+	text-decoration:none;
+}
+ 
+nav ul li a{
+	line-height:50px;
+	text-decoration: none;
+	display:inline-block;
+	height:inherit;
+	color:#fff;
+}
+
+#banner .inner{
+	max-width:300px;
+	text-align:center;
+	margin:0 auto;
+	position:relative;
+	top:160px;
+}
+#banner .inner h1{
+	margin:0;
+
+}
+
+#banner button{
+	padding:14px 40px;
+}
+
+.sub-heading{
+	line-height:30px;
+	margin: 30px;
+}
+
+#banner .inner .more{
+	margin-top:280px;
+}
+
+
+
+.logo{
+	font-size: 20px;
+	font-weight:700;
+	letter-spacing:1px;
+
+}
+.logo a{
+	color:#fff;
+}
+.logo i{
+	font-size: 120%;
+}
+.content{
+
+}
+
+.green-section{
+	text-align:center;
+	background-color: #089db0;
+	color:#fff;
+}
+.green-section .hr{
+	background-color: #078494;
+	margin:20px auto;
+	width:60%;
+}
+
+.sub-heading{
+	font-size: 18px;
+}
+
+
+.green-section .icon-group .icon{
+	display:inline-block;
+	width:80px;
+	height:80px;
+	background-color: rgba(0, 0, 0, 0.2);
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+	
+	border: 1px solid #0d6f7c;
+	margin:20px;
+}
+
+.icon-group{
+	margin-top:20px;
+}
+.icon i{
+	-webkit-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	display:block;
+	width:100%;
+	height:100%;
+	text-align:center;
+	line-height:80px;
+	font-size: 40px;
+}
+.article-preview{
+	overflow:hidden;
+}
+.article-preview>div{
+	float:left;
+
+}
+.gray-section{
+	background-color: #252f34;
+	color:#fff;
+	font-size: 0px;
+}
+.gray-section h2{
+	font-size: 24px;
+}
+.gray-section p{
+	font-size: 18px;
+}
+.gray-section .img-section{
+	max-width:40%;
+}
+
+
+.gray-section .img-section img{
+	width:100%;
+}
+.gray-section>div:nth-child(2n-1){
+	background-color: rgba(255,255, 255, 0.05);
+}
+
+
+.gray-section .text-section{
+	max-width:60%;
+	position:relative;
+	padding:60px;
+	
+	box-sizing: border-box;
+}
+
+.purple-section{
+	background-color: #3f3965;
+	color:#fff;
+	overflow:hidden;
+	padding:80px;
+}
+.purple-section .heading-wrapper{
+	text-align:center;
+}
+
+
+.purple-section .hr{
+	background-color: #373259;
+	width:60%;
+}
+
+.card-group{
+
+}
+.card{
+	float:left;
+	width:50%;
+	min-height:300px;
+	padding:50px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	 
+}
+.card p{
+	 
+}
+
+.card:first-child{
+	background-color: rgba(0,0,0,0.04);
+}
+.card:nth-child(2){
+	background-color: rgba(0,0,0,0.08);
+}
+
+.card:nth-child(3){
+	background-color: rgba(0,0,0,0.12);
+}
+
+
+.card:nth-child(4){
+	background-color: rgba(0,0,0,0.16);
+}
+
+
+.card:nth-child(5){
+	background-color: rgba(0,0,0,0.20);
+}
+
+
+.card:nth-child(6){
+	background-color: rgba(0,0,0,0.24);
+}
+
+
+
+
+footer{
+	background-color: rgba(0, 0, 0, 0.4);
+	color:#fff;
+	overflow:hidden;
+	min-height:200px;
+	text-align:center;
+}
+
+ul.share-group{
+	margin:0 auto;
+	display:block;
+	width:1080px;
+	padding:50px;
+}
+.share-group li{
+	display:inline-block;
+	padding:10px ;
+}
+.share-group li a{
+	text-decoration: none;
+	color:#fff;
+}
+
+.copyright{
+	padding:20px;
+}
+
+
+.main-wrapper{
+	background: #444 url('../img/banner.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wrapper{
+	max-width:1080px;
+	margin:0 auto;
+	overflow:hidden;
+	padding:100px 0;
+}
+
+
+.hr{
+	 
+	height:2px;
+	margin:0 auto;
+}
+
+
+.clearfix:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+
+
+
+h3{
+	font-size: 24px;
+}
+
+p{
+	font-size: 18px;
+	letter-spacing:1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+button{
+	border:none;
+	background-color: #333;
+	color:#eee;
+	padding:10;
+
+
+}
+

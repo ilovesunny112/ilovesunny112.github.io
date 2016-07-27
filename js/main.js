@@ -2,7 +2,8 @@ $(function() {
 	'use strict';
 	var sidebar = $("#sidebar"),
 		mask = $(".mask"),
-		sidebarTrigger = $("#sidebartrigger");
+		sidebarTrigger = $("#sidebartrigger"),
+		backtop = $(".backtotop");
 
 	sidebarTrigger.on("click", function() {
 		console.log(1);
@@ -23,5 +24,22 @@ $(function() {
 			transform: "translateX(300px)"
 		});
 		mask.fadeOut()
+	})
+
+	$(window).on("scroll", function() {
+		if ($(window).scrollTop() > $(window).height()) {
+			backtop.fadeIn()
+		} else {
+			backtop.fadeOut()
+		}
+	})
+
+	$(window).trigger("scroll")
+
+
+	backtop.on("click", function() {
+		$("html, body").animate({
+			scrollTop: 0
+		}, 800)
 	})
 })
